@@ -1,0 +1,21 @@
+{
+    "name": "saasformation/vendor-functional-tests",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SaaSFormation\\Vendor\\FunctionalTests\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SaaSFormation",
+            "email": "info@saasformation.com"
+        }
+    ],
+    "require": {
+        "saasformation/vendor-api": "dev-master",
+        "behat/behat": "3.10.0"
+    }
+}
